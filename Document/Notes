@@ -1,0 +1,5 @@
+git status #list out files changed
+git add tenfile #them file changed to be committed
+git status #check color => green
+git commit -m "nhap message here"
+git push -- set - upstream origin tennhanh #day code len repository
