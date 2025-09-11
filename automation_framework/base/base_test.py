@@ -11,4 +11,4 @@ class BaseTest:
         sleep(5)  # Wait for page to load
         request.cls.driver = self.driver   # gan driver cho class
         yield # doi nhung test case khac chay xong
-        self.driver.quit() # dong trinh duyet sau khi chay nhung test case khac xong
+        self.driver.quit() # dong trinh duyet sau khi chay nhung test case khac xong #

@@ -11,5 +11,5 @@ class LoginPage:
     def login(self): # action
         self.driver.find_element(*self.user).send_keys('Admin') # * de unpacking
         self.driver.find_element(*self.password).send_keys('admin123') # action
-        self.driver.find_element(*self.login_button).click() # action
+        self.driver.find_element(*self.login_button).click() # action #
 
