@@ -1,8 +1,7 @@
 
-from automation_framework.base.base_test import BaseTest
-from automation_framework.pages.login_page_new import LoginPage
-from automation_framework.pages.dashboard_page import DashboardPage
-from automation_framework.pages.recruitment_page import RecruitmentPage
+from ..base.base_test import BaseTest
+from ..pages.login_page_new import LoginPage
+from ..pages.dashboard_page import DashboardPage
 from time import sleep
 import pytest
 @pytest.mark.usefixtures("setup")
